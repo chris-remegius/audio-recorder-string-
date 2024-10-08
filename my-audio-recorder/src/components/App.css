@@ -1,0 +1,62 @@
+/* ReactRecorder.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-audio-recorder {
+  background-color: #b3e5fc; /* Light blue background */
+}
+
+.card-container {
+  max-width: 800px; /* Increased maximum width for the container */
+  width: 100%; /* Full width within the max width */
+  border: 1px solid #e2e8f0;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  text-align: center;
+  color: #2d3748;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1.5rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  color: white;
+}
+
+.button-start {
+  background: linear-gradient(to right, #38a169, #2f855a);
+}
+
+.button-stop {
+  background: linear-gradient(to right, #f56565, #c53030);
+}
+
+.button-clear {
+  background: linear-gradient(to right, #ecc94b, #d69e2e);
+}
+
+.audio-preview {
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 0.5rem;
+}
